@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Position</title>
+        <style>
+            .box{
+                width: 600px;
+                height: 600px;
+                background-color: red;
+                position: relative;
+                border: 4px solid #000;
+                margin: auto;
+                overflow: hidden;
+            }
+            .common1{
+                width: 300px;
+                height: 300px;
+                border: 3px solid #000;
+                position: absolute;
+            }
+            .b1{
+                background-color: aqua;
+                top: 0px;
+                right: 0px;
+            }
+            .b2{
+                background-color: blue;
+                bottom: 0px;
+                right: 0px;
+            }
+            .b3{
+                background-color: forestgreen;
+                top:0px;
+                left:0px;
+            }
+            .b4{
+                background-color: darkgoldenrod;
+                bottom:0px;
+                left:0px;
+            }
+            .b11{
+                background-color: gold;
+                top: 0px;
+                right: 0px;
+            }
+            .b12{
+                background-color: darkred;
+                bottom: 0px;
+                right: 0px;
+            }
+            .b13{
+                background-color: dimgray;
+                top:0px;
+                left:0px;
+            }
+            .b14{
+                background-color: darksalmon;
+                bottom:0px;
+                left:0px;
+            }
+            .box2{
+                width: 595px;
+                height: 595px;
+                background-color: red;
+                overflow: hidden;
+                border: 5px solid #000; 
+                border-radius: 595px;
+                position: absolute;
+                top:0px;
+                left:0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="b1 common1"></div>
+            <div class="b2 common1"></div>
+            <div class="b3 common1"></div>
+            <div class="b4 common1"></div>
+            <div class="box2 common1">
+                <div class="b11 common1"></div>
+                <div class="b12 common1"></div>
+                <div class="b13 common1"></div>
+                <div class="b14 common1"></div>
+            </div>
+        </div>
+    </body>
+</html>
